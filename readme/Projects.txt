@@ -1,0 +1,226 @@
+# C Learning Project Roadmap
+
+This document outlines a structured sequence of C programming projects to build strong fundamentals before advancing to C++, networking, cybersecurity, and robotics. Each project includes a brief description and the key skills it develops.
+
+---
+
+## 🧩 Level 0 — Warm-Up
+
+### 1. Hello World
+
+*Prints a simple message to the console.*
+**Teaches:** Basic syntax, compiling, and running a C program.
+
+### 2. Hello Name
+
+*Prompts the user for their name and greets them.*
+**Teaches:** Input/output (`scanf`, `printf`), string basics.
+
+### 3. Number Guessing Game
+
+*Generates a random number and lets the user guess until correct.*
+**Teaches:** Loops, conditionals, random numbers, logic.
+
+---
+
+## 🔹 Level 1 — Beginner Core Projects
+
+### 4. Basic Calculator
+
+*Performs basic arithmetic operations based on user input.*
+**Teaches:** Functions, switch statements, user interaction.
+
+### 5. Even–Odd Counter
+
+*Counts how many of a list of numbers are even or odd.*
+**Teaches:** Arrays, loops, modulo operator.
+
+### 6. Temperature Converter
+
+*Converts temperatures between Celsius, Fahrenheit, and Kelvin.*
+**Teaches:** Arithmetic, modular code, formatted output.
+
+### 7. Word Counter
+
+*Counts words, vowels, consonants, and digits in a sentence.*
+**Teaches:** String handling, loops, character arrays.
+
+### 8. Simple Quiz Program
+
+*Asks a few questions and tracks the user’s score.*
+**Teaches:** Conditional logic, arrays, scoring systems.
+
+### 9. ATM Simulation
+
+*Simulates deposit, withdrawal, and balance functions.*
+**Teaches:** Loops, state management, menus.
+
+### 10. To-Do List
+
+*Stores up to 10 tasks with options to mark or delete.*
+**Teaches:** Arrays of strings, string manipulation.
+
+### 11. Rock–Paper–Scissors Game
+
+*Plays a simple match between user and computer.*
+**Teaches:** Randomness, logic, input validation.
+
+### 12. Simple Alarm Clock
+
+*Prompts for a target time and waits until it matches system time.*
+**Teaches:** Time handling, loops, condition checking.
+
+### 13. File Writer & Reader
+
+*Writes text to a file, then reads and displays it.*
+**Teaches:** File I/O (`fopen`, `fprintf`, `fscanf`, `fclose`).
+
+---
+
+## 🧭 Level 2 — Intermediate Transition
+
+### 14. Student Record Manager
+
+*Stores and manages student info (name, ID, GPA).*
+**Teaches:** Structs, arrays, file I/O, modular code.
+
+### 15. Contact Book
+
+*Stores contacts in a file with add, delete, and search functions.*
+**Teaches:** Structs, file persistence, data manipulation.
+
+### 16. Caesar Cipher Tool
+
+*Encrypts and decrypts messages by shifting characters.*
+**Teaches:** ASCII manipulation, loops, string logic.
+
+### 17. Dice Roller Simulator
+
+*Simulates rolling dice multiple times and shows results.*
+**Teaches:** Randomization, statistical counting, arrays.
+
+### 18. Mini Shell
+
+*Runs Linux commands using `fork()` and `execvp()`.*
+**Teaches:** Process management, system calls, OS fundamentals.
+
+---
+
+## 🌐 Level 3 — Networking Projects
+
+### 19. TCP Chat Program
+
+*Enables text chat between two computers.*
+**Teaches:** TCP sockets, client-server model, concurrency.
+
+### 20. UDP File Transfer Tool
+
+*Sends small files over UDP with reliability handling.*
+**Teaches:** Packet handling, retransmission logic.
+
+### 21. Network Port Scanner
+
+*Scans ports on a target host to check which are open.*
+**Teaches:** Networking APIs, multithreading, security basics.
+
+### 22. DNS Resolver
+
+*Builds a DNS query manually and parses response.*
+**Teaches:** UDP sockets, binary packet parsing.
+
+### 23. Peer-to-Peer File Sharing Program
+
+*Implements a basic decentralized file sharing system.*
+**Teaches:** Distributed systems, synchronization, hashing.
+
+---
+
+## 🔐 Level 4 — Cybersecurity & Reverse Engineering
+
+### 24. Password Hashing Tool
+
+*Hashes passwords using MD5/SHA libraries.*
+**Teaches:** Cryptography, secure storage, hashing.
+
+### 25. XOR Encryption Program
+
+*Encrypts/decrypts text using XOR logic.*
+**Teaches:** Bitwise operations, key-based encryption.
+
+### 26. Buffer Overflow Demo
+
+*Demonstrates unsafe string input leading to stack issues.*
+**Teaches:** Memory layout, exploitation awareness (safe sandbox).
+
+### 27. File Integrity Checker
+
+*Checks if files were modified using checksums.*
+**Teaches:** Hashing, file scanning, verification.
+
+---
+
+## ⚙️ Level 5 — Robotics & Embedded Systems
+
+### 28. Raspberry Pi Sensor Logger
+
+*Reads sensor data and logs it to a file.*
+**Teaches:** GPIO access, timing, hardware interfacing.
+
+### 29. PID Controller Simulation
+
+*Simulates proportional–integral–derivative control.*
+**Teaches:** Control theory, feedback systems.
+
+### 30. Line-Following Robot (Arduino)
+
+*Uses sensor input to guide robot movement.*
+**Teaches:** Embedded C, PWM, motor control.
+
+### 31. CAN Bus Simulator
+
+*Simulates communication between vehicle subsystems.*
+**Teaches:** Real-time data handling, communication protocols.
+
+---
+
+## 🧠 Long-Term Integration Projects
+
+### 32. Cyber Defense Simulation
+
+*Network of C servers and attack tools to simulate intrusion detection.*
+**Teaches:** Offense and defense fundamentals.
+
+### 33. Telemetry System for Rockets/Drones
+
+*Sends sensor data over UDP to ground station.*
+**Teaches:** Embedded + networking integration.
+
+### 34. Custom Packet Sniffer
+
+*Captures and analyzes network packets.*
+**Teaches:** Packet capture APIs, protocol parsing, systems-level coding.
+
+### 35. Firmware Analysis Practice
+
+*Safely explores firmware binaries to understand structure.*
+**Teaches:** Reverse engineering basics, binary analysis.
+
+---
+
+## 🪄 When to Move to C++
+
+Move to C++ when you are comfortable with:
+
+* Pointers, arrays, and structs
+* Dynamic memory allocation (`malloc`, `free`)
+* Functions and modularization
+* File I/O
+
+At that point, you’ll be ready to apply **object-oriented design** to rebuild many of these projects using **classes, constructors, destructors, and STL containers**.
+
+---
+
+**Next Step:** Commit each project as its own folder on GitHub (e.g., `01_hello_world/`, `02_calculator/`, etc.), with a short README explaining the purpose and what you learned.
+
+This roadmap builds your skills from beginner C syntax to systems-level programming, cybersecurity, and robotics readiness.
+
